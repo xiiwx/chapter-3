@@ -20,9 +20,8 @@ set way_foot AD
 
 if (way_bus > way_foot)
   log string "быстрее на ногах"
-close
-if (way_foot > way_bus)
-  log string "быстрее на автобусе"
+else
+  log string "быстрее наавтобусе"
 close
 
 finish
