@@ -1,0 +1,42 @@
+start
+
+new a number 
+new b number 
+new c number 
+new d number
+new x number
+
+set a 40
+set b 30
+set c 20
+set d 10
+set x 15
+
+if (x > a)
+  log string "x больше всех"
+close
+if (d > x)
+  log string "x меньше всех"
+close
+  
+if (x > b)
+  log string "a > x > b"
+else
+if (x > c)
+  log string "b > x > c"
+else
+if (x > d)
+  log string "c > x > d"
+close
+
+finish
+
+
+
+c > x > d
+
+> program finished
+
+	compilation time: 1ms.
+
+	forgotten garbage size: 0 bites
