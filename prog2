@@ -1,0 +1,23 @@
+start
+new wallet number
+new product number
+set wallet 100
+set product 99
+if (wallet > product)
+  log string "денег хватает"
+close
+if (product > wallet)
+  log string "денег не хватает"
+close
+
+finish
+
+
+
+денег хватает
+
+> program finished
+
+	compilation time: 0ms.
+
+	forgotten garbage size: 0 bites
