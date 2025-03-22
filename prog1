@@ -11,3 +11,12 @@ if (adult > age)
 close
 
 finish
+
+
+не может купить алкоголь
+
+> program finished
+
+	compilation time: 1ms.
+
+	forgotten garbage size: 0 bites
