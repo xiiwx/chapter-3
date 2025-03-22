@@ -5,8 +5,7 @@ set wallet 100
 set product 99
 if (wallet > product)
   log string "денег хватает"
-close
-if (product > wallet)
+else
   log string "денег не хватает"
 close
 
