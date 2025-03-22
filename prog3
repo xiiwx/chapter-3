@@ -1,0 +1,37 @@
+start
+new AB number
+new BC number
+new CD number
+new Waiting number
+
+new AD number
+
+set AB 3
+set Waiting 10
+set BC 60
+set CD 25
+
+set AD 240
+
+new way_bus number
+new way_foot number
+set way_bus AB+Waiting+BC+CD
+set way_foot AD
+
+if (way_bus > way_foot)
+  log string "быстрее на ногах"
+close
+if (way_foot > way_bus)
+  log string "быстрее на автобусе"
+close
+
+finish
+
+
+быстрее на автобусе
+
+> program finished
+
+	compilation time: 0ms.
+
+	forgotten garbage size: 0 bites
